@@ -66,7 +66,7 @@ function WeatherApp() {
             ) : weather ? (
                 <div className="ans-cont">
                     {weather.weather[0].main==="Clouds"?(
-                        <div className="clear"></div>
+                        <div className="cloud"></div>
                     ):(weather.weather[0].main==="Clear")?(
                         <div className="clear"></div>
                     ):(weather.weather[0].main==="Rain")?(

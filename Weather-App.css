@@ -1,8 +1,8 @@
 body {
     background-color: black;
     display: flex;
-    justify-content: center;
-    align-items: start; /* Fixed */
+    justify-content: start;
+    align-items: center; /* Fixed */
     width: 100vw;
     height: 100vh;
     font-size: 20px;
@@ -70,7 +70,7 @@ input:focus {
     height: 40px;
     margin-left: 20px;
     border-radius: 10px;
-    width: 100px;
+    width: 200px;
     font-family: monospace;
     font-weight: bold;
     cursor: pointer;
@@ -116,6 +116,7 @@ input:focus {
 h1 {
     font-size: 24px;
     text-align: center;
+    background-color: black;
 }
 
 @media (max-width: 768px) {
