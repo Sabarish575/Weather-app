@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Weather-App.css";
 
 function WeatherApp() {
-    const api_key = "b22367f2ef5d39c1a79abb56b2b64f96";
+    const api_key = "ADD UR API KEY";
 
     const [city, setCity] = useState("");
     const [convertor, setConvertor] = useState(false);
